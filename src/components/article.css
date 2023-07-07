@@ -1,0 +1,27 @@
+.article{
+    position: relative ;
+    width: 100% !important;
+    height: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.article-img-top{
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.article-body{
+  position: absolute;
+  bottom: 4%;
+  color: white ;
+  padding: 0 30px;
+  
+
+    
+}
+.article-btn{
+color: white;
+text-decoration: none;
+}

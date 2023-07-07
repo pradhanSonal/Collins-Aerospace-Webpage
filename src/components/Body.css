@@ -1,0 +1,33 @@
+.card{
+    position: relative;
+    text-align: center;
+    border: 0;
+    margin-top: 20px;
+    
+}
+.card-description{
+    position:absolute;
+    top: 35%;
+    left: 10%;
+    background-color:#DADADA; 
+}
+.card-bg{
+    width: 100%;
+    padding: 20px;
+}
+.card-description h4{
+    margin:15px
+}
+.card-description h4,h6{
+    font-weight: 400;
+    font-family: Roboto;
+}
+.main-article{
+    display: flex;
+    margin-left: 10px;
+}
+@media (max-width: 767px){
+    .card .card-bg{
+        height: 300px;
+    }
+}

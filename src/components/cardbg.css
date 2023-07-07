@@ -1,0 +1,110 @@
+.card--container {
+  display: flex;
+  width: 98%;
+  margin: 80px auto;
+}
+.card--container div {
+  overflow: hidden;
+}
+
+.card-bg {
+  margin: 0 12px;
+}
+
+.card-bg .card__image {
+  display: block;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.card-bg .card__image a {
+  display: block;
+  margin-bottom: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.card-bg.card__image img {
+  width: 100%;
+}
+
+.card__title,
+.card__date {
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.card__title::after {
+  background: #000;
+  bottom: -4px;
+  content: "";
+  height: 4px;
+  position: absolute;
+  width: 48px;
+  left: 0;
+}
+
+.card__date::before {
+  content: "";
+  height: 4px;
+  border-left: 1px solid black;
+  display: block;
+  height: 20px;
+  left: 100%;
+  position: absolute;
+  width: 3px;
+  margin: 0 1rem;
+  background: #000;
+  bottom: 15px;
+}
+
+.card__sub-title,
+.card__description,
+.card__date {
+  font-size: 14px;
+}
+.card__sub-title{
+    margin-left: 2rem;
+
+}
+.card__title{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.card__cta {
+  display: inline-block;
+  align-self: flex-start;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.card__cta:hover {
+  color: #ce1126;
+}
+
+.card__cta span {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card__cta span::after {
+  content: "\f0da";
+  font-family: fontawesome;
+  margin-left: 0.5rem;
+  position: relative;
+  border-color: transparent;
+  color: #ce1126;
+}
+
+@media (max-width: 767px) {
+  .card--container {
+    display: block !important;
+   
+  }
+  .card-deck {
+    padding: 0 30px!important;
+  }
+}

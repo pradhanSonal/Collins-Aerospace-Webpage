@@ -1,0 +1,1 @@
+export const LOGO_URL="collins_logo 1.png";

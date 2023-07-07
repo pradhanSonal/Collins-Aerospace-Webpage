@@ -1,0 +1,7 @@
+.card-img-section{
+    display: flex;
+    margin: 0 10px;
+}
+.card-img-top{
+    padding: 20px;
+}
